@@ -58,10 +58,12 @@ Es importante destacar que esta entrega representa una fase inicial del desarrol
 * **Lectura básica de entrada analógica:** Se implementará una lectura básica de la entrada analógica del teclado, utilizando el conversor analógico-digital (ADC). Esta funcionalidad se mejorará en entregas posteriores para una medición más precisa.
 
 
-<span class="footnote" id="1">Inicialmente, se había planteado utilizar el microcontrolador STM32F031C6T6 compatible con la placa NUCLEO-F031K6. Sin embargo, debido a que este microcontrolador no es compatible con Keil Studio Cloud (y está marcado como descontinuado por Mbed), se ha decidido utilizar la placa Blue Pill basada en el microcontrolador STM32F103.</span>
+**Cambio de hardware**
+
+Inicialmente, se había planteado utilizar el microcontrolador STM32F031C6T6 compatible con la placa NUCLEO-F031K6. Sin embargo, debido a que este microcontrolador no es compatible con Keil Studio Cloud (y está marcado como descontinuado por Mbed), se ha decidido utilizar la placa Blue Pill basada en el microcontrolador STM32F103.[^1]
+
+[^1]: Inicialmente, se había planteado utilizar el microcontrolador STM32F031C6T6 compatible con la placa NUCLEO-F031K6. Sin embargo, debido a que este microcontrolador no es compatible con Keil Studio Cloud (y está marcado como descontinuado por Mbed), se ha decidido utilizar la placa Blue Pill basada en el microcontrolador STM32F103.
 
 
 -------------------
- posteriores para una medición más precisa.
-Cambio de hardware
-Inicialmente, se había planteado utilizar el microcontrolador STM32F031C6T6 compatible con la placa NUCLEO-F031K6. Sin embargo, debido a que este microcontrolador no es compatible con Keil Studio Cloud (y está marcado como descontinuado por Mbed), se ha decidido utilizar la placa Blue Pill basada en el microcontrolador STM32F103.
+
