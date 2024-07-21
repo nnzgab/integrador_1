@@ -16,36 +16,36 @@ El objetivo principal de este proyecto es desarrollar e implementar un firmware 
 
 ### Descripción del programa de prueba de teclado
 
-#### Inicio y cuenta regresiva
-
-* El programa comienza con una cuenta regresiva de 6 segundos visible en el monitor serial.
-* Durante este tiempo, tres LEDs de sistema se encenderán secuencialmente.
-
-#### Inicio del test
-
-* Para iniciar el test, el usuario debe presionar una combinación específica de dos teclas (por ejemplo, '#' y '6') dentro del período de la cuenta regresiva.
-* Si se inicia el test correctamente, se mostrará el mensaje "INICIO DE TEST" en el monitor serial.
-
-#### Prueba de ingreso de teclas
-
-* El programa solicitará al usuario que ingrese cada tecla del teclado de manera secuencial.
-* Cada vez que se ingrese una tecla correcta, se avanzará a la siguiente.
-
-#### Prueba de LEDs
-
-* Una vez finalizada la prueba de ingreso de teclas, se procederá a evaluar el funcionamiento de cada LED, encendiéndolos secuencialmente.
-* Para avanzar a la siguiente prueba, el usuario debe presionar la tecla '#'.
-
-#### Prueba de buzzer y entradas analógicas
-
-* Seguidamente, se evaluarán el buzzer y las entradas analógicas del teclado.
-
-#### Finalización del test
-
-* El test concluirá con el mensaje "FINAL DEL TEST" en el monitor serial.
-* La finalización del test se verá con todos los leds parpadeando intermitentemente.
-* Durante la ejecución del test, si el usuario no pasa al siguiente estado dentro de un período de 6 segundos, el test se finalizará automáticamente.
-
+>#### Inicio y cuenta regresiva
+>
+>* El programa comienza con una cuenta regresiva de 6 segundos visible en el monitor serial.
+>* Durante este tiempo, tres LEDs de sistema se encenderán secuencialmente.
+>
+>#### Inicio del test
+>
+>* Para iniciar el test, el usuario debe presionar una combinación específica de dos teclas (por ejemplo, '#' y '6') dentro del período de la cuenta regresiva.
+>* Si se inicia el test correctamente, se mostrará el mensaje "INICIO DE TEST" en el monitor serial.
+>
+>#### Prueba de ingreso de teclas
+>
+>* El programa solicitará al usuario que ingrese cada tecla del teclado de manera secuencial.
+>* Cada vez que se ingrese una tecla correcta, se avanzará a la siguiente.
+>
+>#### Prueba de LEDs
+>
+>* Una vez finalizada la prueba de ingreso de teclas, se procederá a evaluar el funcionamiento de cada LED, encendiéndolos secuencialmente.
+>* Para avanzar a la siguiente prueba, el usuario debe presionar la tecla '#'.
+>
+>#### Prueba de buzzer y entradas analógicas
+>
+>* Seguidamente, se evaluarán el buzzer y las entradas analógicas del teclado.
+>
+>#### Finalización del test
+>
+>* El test concluirá con el mensaje "FINAL DEL TEST" en el monitor serial.
+>* La finalización del test se verá con todos los leds parpadeando intermitentemente.
+>* Durante la ejecución del test, si el usuario no pasa al siguiente estado dentro de un período de 6 segundos, el test se finalizará automáticamente.
+>
 ### Aclaración sobre las funcionalidades de la primera entrega del proyecto
 
 Es importante destacar que esta entrega representa una fase inicial del desarrollo, y se prevén mejoras e implementaciones adicionales en entregas posteriores.
