@@ -15,7 +15,7 @@ El objetivo principal de este proyecto es desarrollar e implementar un firmware 
 * **Puerto de comunicación UART:** Validar la correcta comunicación entre el teclado y el panel de alarma, enviando y recibiendo mensajes de prueba.
 
 ### Diagrama en bloque.
-![Diagrama en bloque]([https://github.com/nnzgab/TP1/blob/main/conexion.PNG](https://github.com/nnzgab/integrador_1/blob/main/diagrama_bloque.PNG))
+![Diagrama en bloque](https://raw.githubusercontent.com/nnzgab/integrador_1/main/diagrama_bloque.PNG)
 
 ### Descripción del programa de prueba de teclado.
 
